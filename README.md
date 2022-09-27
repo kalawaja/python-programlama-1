@@ -12,9 +12,7 @@ Bu eğitimi başarıyla tamamlayanlar, Python programlama alanında kendilerini 
 
 ---
 
-> ### Ders Notları
-
-> ### **20 Eylül 2022**
+> ### Kurs Boyunca Kullanılacak Araçlar
  
 1. Python Güncel Sürümü indirilir → [Python Resmi İnternet Sitesi](https://www.python.org/)
 
