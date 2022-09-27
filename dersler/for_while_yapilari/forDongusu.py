@@ -18,3 +18,9 @@ else:
             continue
         else:
             print(i, end=" ")
+
+""" # liste ve for mantığı
+renkler = ["kırmızı", "yeşil", "mavi", "sarı", "turuncu", "mor", "siyah", "beyaz", "gri", "pembe"]
+for renk in renkler:
+    print(renk, end=" ")
+"""
