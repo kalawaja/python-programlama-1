@@ -36,15 +36,3 @@ else:
             print("Bilemediniz, Sayı: ", randomSayi, "olacaktı")
         else:
             print("Tebrikler Bildiniz")
-
-
-
-
-
-
-
-
-
-
-
-
