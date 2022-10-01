@@ -1,5 +1,5 @@
 
-# 1 ile 100 arasında rastgele sayılar üreten python programı
+# if-elif-else yapısı kullanılarak 1 ile 100 arasında rastgele sayılar üreten python programı
 
 """
 Sayılar random modülü ile rastgele bir değişkene atanacak,
@@ -12,9 +12,9 @@ Kullanıcının ilk başta üç hakkı olacak.
 Üç hakkında da random sayıyı bilemeyen kullanıcıya "Bilemediniz" uyarısı ile birlikte random sayı gösterilecek,
 """
 
-import random
+"""import random
 randomSayi = random.randint(1,100)
-print(randomSayi)
+
 kullaniciSayi = int(input("1 ile 100 Arasında Bir Sayı Giriniz: "))
 
 if kullaniciSayi == randomSayi:
@@ -35,4 +35,32 @@ else:
         if kullaniciSayi != randomSayi:
             print("Bilemediniz, Sayı: ", randomSayi, "olacaktı")
         else:
-            print("Tebrikler Bildiniz")
+            print("Tebrikler Bildiniz")"""
+
+# for döngüsü kullanılarak 1 ile 100 arasında rastgele sayılar üreten python programı
+
+import random
+randomSayi = random.randint(1,100)
+print(randomSayi)
+for i in range(3):
+    i += 1
+    kullaniciSayi = int(input("1 ile 100 Arasında Bir Sayı Giriniz: "))
+    if kullaniciSayi == randomSayi:
+        print("Tebrikler ilk defada bildiniz")
+        break
+    elif kullaniciSayi > randomSayi:
+        print("Daha küçük bir sayı giriniz: ")
+        if i == 3:
+            print("Bilemediniz, Sayı: ", randomSayi, "olacaktı")
+            if kullaniciSayi == randomSayi:
+                print("Tebrikler ilk defada bildiniz")
+            break
+    else:
+        print("Daha büyük bir sayı giriniz: ")
+        if i == 3:
+            print("Bilemediniz, Sayı: ", randomSayi, "olacaktı")
+            if kullaniciSayi == randomSayi:
+                print("Tebrikler ilk defada bildiniz")
+            break
+
+
