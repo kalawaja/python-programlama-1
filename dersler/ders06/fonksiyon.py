@@ -12,5 +12,3 @@ toplam(s1, s2) # 2. Fonksiyonu çağırma
 
 
 
-
-
