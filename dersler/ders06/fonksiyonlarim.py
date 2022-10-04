@@ -10,3 +10,4 @@ def carpim(sayi1, sayi2):
 
 def kare(taban, us):
     print(pow(taban, us))
+

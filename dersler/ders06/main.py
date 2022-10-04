@@ -56,3 +56,5 @@ faktoriyel = lambda sayi: 1 if sayi == 0 else sayi * faktoriyel(sayi - 1)
 
 print(faktoriyel(5))
 
+
+
