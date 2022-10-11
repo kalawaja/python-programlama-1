@@ -1,16 +1,16 @@
 
 # Initializing a class
 
-"""class Person:
+class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
 
-p1 = Person("John", 36)"""
+p1 = Person("John", 36)
 
 print("""Name: {p1.name} \n Age: {p1.age}""".format(p1=p1))
 
-class Bilisim:
+"""class Bilisim:
     def __init__(self, brans, ogretmen, sinif):
         self.brans = brans
         self.ogretmen = ogretmen
@@ -27,4 +27,4 @@ ogretmen = input("Öğretmen: ")
 sinif = input("Sınıf: ")
 
 bolum1 = Bilisim(brans, ogretmen, sinif)
-bolum1.yazdir()
+bolum1.yazdir()"""
