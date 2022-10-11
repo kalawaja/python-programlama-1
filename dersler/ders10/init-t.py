@@ -23,7 +23,9 @@ class Bilisim:
             print(eleman)
 
     def guncelle(self):
-        pass
+        self.sil()
+        self.ekle()
+        print("Bilgiler Güncellenmiştir.")
 
     def ekle(self):
         brans = input("Branş Giriniz: ")
@@ -36,11 +38,15 @@ class Bilisim:
 
     def sil(self):
         silBrans = input("Silmek istediğiniz branşı giriniz: ")
-        if silBrans in self.liste:
-                a = self.liste.index(silBrans)
-                for i in range(3):
-                    self.liste.pop(a)
-                    
+        if silBrans in self.liste:  
+            # liste içinde silinecek eleman var mı?
+                a = self.liste.index(silBrans)  
+                # silinecek elemanın indexini bir değişkene atıyoruz
+                for i in range(3): 
+                    # branş ve sonrasındaki 2 elemanı silmek için 3 kere döndürüyoruz
+                    self.liste.pop(a) 
+                    # silinecek elemanın indexini pop ile siliyoruz
+
         print(self.liste)
 
 sinifAdi = input("Sınıf Adı Giriniz: ")
