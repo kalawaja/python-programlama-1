@@ -34,16 +34,13 @@ class Bilisim:
         self.liste.append(sinif)
         print(self.liste)
 
-    """def sil(self):
-        silBrans = input("Silmek istediğiniz branşı giriniz: ")
-        if silBrans in self.liste:
-                self.liste.pop(self.liste.index(silBrans))
-        print(self.liste)"""
-
     def sil(self):
         silBrans = input("Silmek istediğiniz branşı giriniz: ")
         if silBrans in self.liste:
-            self.liste.remove(silBrans)
+                a = self.liste.index(silBrans)
+                for i in range(3):
+                    self.liste.pop(a)
+                    
         print(self.liste)
 
 sinifAdi = input("Sınıf Adı Giriniz: ")
