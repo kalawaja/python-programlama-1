@@ -5,8 +5,6 @@
 
 # Fakülte Programı -> her bir fakülte class içinde oluşturulsun
 
-# Fakülte -> Bölüm -> Ders -> Öğrenci
-
 class Egitim:
     bolum = "Bilgisayar Mühendisliği"
     kampus = "Bahcelievler"
