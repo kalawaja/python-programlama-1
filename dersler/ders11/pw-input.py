@@ -1,7 +1,10 @@
 
 # pwinput ile girilen şifrede Türkçe karakteri bulan ve listeleyen python programı
 
-"""from pwinput import pwinput as pw
+# Terminal -> python3 -m pip install pwinput            (for mac)
+# Terminal -> python3 -m pip install --upgrade pip      (for mac)
+
+from pwinput import pwinput as pw
 
 trListe = list()
 
@@ -24,4 +27,4 @@ try:
 
 except Exception as hata:
     print("Hata: ", hata)
-    print("Türkçe karakterler: ", trListe)"""
+    print("Türkçe karakterler: ", trListe)
