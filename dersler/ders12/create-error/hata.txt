@@ -1,1 +1,2 @@
 
+unsupported operand type(s) for /: 'str' and 'str'
