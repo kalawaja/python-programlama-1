@@ -1,0 +1,7 @@
+kitap
+
+ad       TEXT
+yazar    TEXT
+turu     TEXT
+fiyat    FLOAT
+stoktaMi BOOL
