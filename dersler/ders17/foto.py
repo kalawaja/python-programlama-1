@@ -1,6 +1,6 @@
 
 # form üzerine fotoğraf ekleme
-# pip install pillow; fotoğraf işlemleri
+# pip pillow; fotoğraf işlemleri
 
 from tkinter import *
 from PIL import Image, ImageTk
